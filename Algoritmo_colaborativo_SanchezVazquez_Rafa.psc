@@ -5,10 +5,10 @@ Algoritmo sin_titulo
     Leer numero2
     //comparamos los dos numeros,
     //si el primero es mayor o igual que el segundo entra
-    Si (numero1=numero2) Entonces
+    Si (numero1>=numero2) Entonces
 		//Si el numero1 y numero2 son iguales entra y escribe que son iguales
 		//Sino lo son escribe que el numero1 es el mayor
-        Si (numero1>=numero2) Entonces
+        Si (numero1=numero2) Entonces
             escribir "los numeros " numero1 " " numero2 " son iguales"
         Sino
             Escribir numero1 " es el mayor de los dos"
